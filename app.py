@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
+    print("Hi")
     return "Hello from a Github pull request!!!!!!"
 
 
