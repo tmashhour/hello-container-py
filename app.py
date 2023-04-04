@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    print("Hi createdd changes")
+    print("Hi createdd changes push to remote")
     return "Hello from a Github pull request!!!!!!"
 
 
